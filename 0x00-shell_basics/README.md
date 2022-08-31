@@ -13,3 +13,4 @@ ls -la /boot . .. :Write a script that lists all files in the current directory 
 file /tmp/iamafile :Write a script that prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script
 ln -s /bin/ls __ls__ :symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory
 cp -u ./*.html ../ :  Create a script that copies all the HTML files
+mv [[:upper:]]* /tmp/u Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u
