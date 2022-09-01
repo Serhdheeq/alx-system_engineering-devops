@@ -9,3 +9,4 @@ chmod ugo+x :Write a script that adds execution permission to the owner, the gro
 chmod 007 hello :Write a script that sets the permission to the file hello as follows
 chmod 753 hello :Write a script that sets the mode of the file hello to this
 chmod --reference=olleh hello :Write a script that sets the mode of the file hello the same as olleh’s mode
+chmod ugo+x /* :Create a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users
